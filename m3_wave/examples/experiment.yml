@@ -1,0 +1,22 @@
+User:
+  name: Gregorio
+
+DAQ:
+  name: AnalogDAQ
+  port: COM3 
+
+Wave:
+  min_volt: 0V
+  max_volt: 3.3V
+  shape: sine_wave
+  dc_offset: 1.6V
+  amplitude: 0.5V
+  resolution: 32
+  num_steps: 100
+  channel_out: 0
+  channel_in: 0
+  delay: 100ms 
+
+Saving:
+  folder: C:/Users/grego/Box/Cornell Spring 2023/ADVANCED LAB/SKILL/data
+  filename: data.dat
